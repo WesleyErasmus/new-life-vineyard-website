@@ -1,0 +1,25 @@
+{
+    "ministries": [
+        {
+            "id": "1",
+            "name": "Farming God's Way",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, porro deleniti expedita aspernatur odio corporis at, consequatur ducimus officiis ab enim aut incidunt unde voluptatum maxime dolore eum! Rerum.",
+            "image": "https://images.unsplash.com/photo-1535090467336-9501f96eef89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80"
+            
+        },
+        {
+            "id": "2",
+            "name": "Healing Rooms",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, porro deleniti expedita aspernatur odio corporis at, consequatur ducimus officiis ab enim aut incidunt unde voluptatum maxime dolore eum! Rerum.",
+            "image": "https://images.unsplash.com/photo-1520857014576-2c4f4c972b57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            
+        },
+        {
+            "id": "3",
+            "name": "Living Waters",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, porro deleniti expedita aspernatur odio corporis at, consequatur ducimus officiis ab enim aut incidunt unde voluptatum maxime dolore eum! Rerum.",
+            "image": "https://images.unsplash.com/photo-1615529328331-f8917597711f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            
+        }
+    ]
+}

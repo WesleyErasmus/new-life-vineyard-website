@@ -2,13 +2,49 @@
 
 :root {
   --primary-color: #000;
-  --secondary-color:#fdfce2;
+  /* --secondary-color:#fdfce2; */
+  --secondary-color:ghostwhite;
   --btn-shadows: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   --shadows: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --margin-max-width: 0 10%;
+  --global-heading-font-size: calc(20px + 0.5rem);
+  --global-p-font-size: calc(12px + 0.2rem);
 }
 
 #app {
   display: block;
   margin: 0 auto;
   font-weight: normal;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+.global-button {
+  border: none;
+  padding: 1rem 2.5rem;
+  background: #000;
+  color: #fff;
+  font-size: calc(14px + 0.4rem);
+  font-weight: bold;
+  box-shadow: var(--shadows);
+}
+
+.global-card-hover:hover {
+
+}
+
+
+.img-sml {
+
+}
+
+.img-med {
+
+}
+
+.img-lrg {
+  
 }
