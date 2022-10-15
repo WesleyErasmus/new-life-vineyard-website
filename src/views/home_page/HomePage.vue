@@ -17,9 +17,9 @@
 <script>
 import HeroImage from './components/HeroImage.vue'
 import ChurchMission from './components/ChurchMission.vue'
-import ChurchMinistries from './components/ChurchMinistries.vue'
+
 export default {
-  components: { HeroImage, ChurchMission, ChurchMinistries, }
+  components: { HeroImage, ChurchMission,  }
 
 }
 </script>

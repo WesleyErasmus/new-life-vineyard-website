@@ -8,7 +8,7 @@
     <!-- Hero Image meta-data -->
     <div class="hero-img-meta-data">
 
-        <!-- Church name -->
+        <!-- Church Name Heading -->
         <h1 class="meta-data-header">New Life Vineyard Church</h1>
         
         <!-- Welcome message / sub-header -->
@@ -16,7 +16,9 @@
 
         <!-- Action buttons -->
         <div class="meta-btns">
+            <!-- Link to about Sunday services - modal?? -->
             <button class="meta-contact-btn">About Sunday Service</button>
+            <!-- Link to directions - QR code / copy link / modal?? -->
             <button class="meta-get-prayer-btn">Get Directions</button>
         </div>
     </div>
@@ -26,6 +28,7 @@
 export default {
     data() {
         return {
+            // Hero Image Welcome Message
             WelcomeMessage: "You're invited to join us every Sunday at 9:30am for the Church Service.",
         }
     },
@@ -33,8 +36,6 @@ export default {
 </script>
 
 <style scoped>
-
-
 /* Hero image styling */
 .hero-img {
     z-index: -1;

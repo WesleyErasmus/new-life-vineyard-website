@@ -28,7 +28,6 @@
             <li>Children's Church</li>
             <li>Youth Evenings</li>
             <li>Farming God's Way</li>
-            <li>Living Waters</li>
             <li>Men's Ministry</li>
             <li>Women's Ministry</li>
           </ul>
@@ -63,7 +62,8 @@ export default {
 
 <style scoped>
 .footer-component {
-  padding: 2rem;
+  padding: 10rem 2rem 2rem 2rem;
+  background: lightgray;
 }
 
 h6 {
