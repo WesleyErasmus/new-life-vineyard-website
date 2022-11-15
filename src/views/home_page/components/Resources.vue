@@ -1,5 +1,6 @@
 <template>
   <div id="resources-component">
+    <h1 style="color: red;">HAVE A RESOURCES CAROUSEL SLIDE LIKE A NETFLIX SLIDER</h1>
 
     <h1 class="resources-heading">
       Christian resources to help you on your journey

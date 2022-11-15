@@ -5,7 +5,7 @@
         <section class="church-mission-content">
 
             <div class="church-mission-header">
-                <h1 class="mission-caption">New Life Vineyard believes in Mission.</h1>
+                <h1 class="mission-caption">We believe in Mission.</h1>
                 <h3 class="mission-statement">{{ MissionStatement }}</h3>
                 <button class="card-button">Find out more about the Vineyard Churches -></button>
             </div>
@@ -45,6 +45,10 @@ export default {
 
 .church-mission-header {
     color: #000;
+}
+
+.mission-caption {
+    font-size: calc(14px + 2.5rem);
 }
 
 .mission-statement {

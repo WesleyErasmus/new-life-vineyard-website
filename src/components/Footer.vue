@@ -8,6 +8,20 @@
         <div class="footer-column col">
           <ul class="footer-links">
             <li>
+              <h6>Our Address</h6>
+            </li>
+            <li>123 Old Mill Road</li>
+            <li>Ndabeni Park,</li>
+            <li>Pinelands,</li>
+            <li>Cape Town</li>
+            <li>South Africa</li>
+            <li>7440</li>
+            <li><button class="get-directions global-button">Get Directions</button></li>
+          </ul>
+        </div>
+        <div class="footer-column col">
+          <ul class="footer-links">
+            <li>
               <h6>Get in Touch</h6>
             </li>
             <li>Phone (021) 1234567</li>
@@ -16,7 +30,6 @@
             <li>Facebook</li>
             <li>Newsletter</li>
             <li>Become a Member</li>
-            <li>Directions</li>
           </ul>
         </div>
         <div class="footer-column col">
