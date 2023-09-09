@@ -1,50 +1,54 @@
-@import "./base.css";
+@import './base.css';
 
+/* **== ROOT VARIABLES ==** */
 :root {
-  --primary-color: #000;
-  /* --secondary-color:#fdfce2; */
-  --secondary-color:ghostwhite;
-  --btn-shadows: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  --shadows: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  --margin-max-width: 0 10%;
-  --global-heading-font-size: calc(20px + 0.5rem);
-  --global-p-font-size: calc(12px + 0.2rem);
+    --primary-color: #385F73;
+    --bold-font: 600;
+    --btn-hover-scale: scale(1.2);;
+    ;
 }
 
 #app {
-  display: block;
-  margin: 0 auto;
-  font-weight: normal;
-  overflow-x: hidden;
-}
-
-h1 {
-  font-weight: bolder;
-}
-
-.global-button {
-  border: none;
-  padding: 1rem 2.5rem;
-  background: #000;
-  color: #fff;
-  font-size: calc(14px + 0.4rem);
-  font-weight: bold;
-  box-shadow: var(--shadows);
-}
-
-.global-card-hover:hover {
 
 }
 
-
-.img-sml {
-
+/* Adjusts app pages height from the top of the app */
+#app-pages-global-styling {
+    margin-top: -77px;
 }
 
-.img-med {
 
+/* MAKE SINGLE COMPONENT FOR THIS !!!!!!!! */
+/* Page Hero Styling */
+.hero-meta-data {
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    max-width: 1440px;
+    height: 45vh;
+    color: #fff;
+    padding-bottom: 3rem;
+}
+/* Hero Image Meta data */
+.hero-meta-data::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(77deg, rgba(43, 43, 43, 0.274), transparent 85%);
+    top: 0;
+    left: -20rem;
+    height: 45vh;
+    opacity: 1;
+    right: 10%;
+    z-index: 1;
 }
 
-.img-lrg {
-  
+.hero-title {
+    font-weight: var(--bold-font) !important;
+    z-index: 2;
+}
+.hero-text {
+    z-index: 2;
 }

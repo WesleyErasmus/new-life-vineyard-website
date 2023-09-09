@@ -1,28 +1,29 @@
-<template>
-  <!-- ========== Webpage Navbar ========== -->
-  <Navbar />
-  
-  <!-- ========== Content of Webpages Display Here ========== -->
-  <router-view />
-
-  <!-- ========== Footer Component ========== -->
-  <Footer />
-
-</template>
-
-<script>
-import { RouterLink, RouterView } from 'vue-router';
-// ========== Component Imports ==========
-
-// Navbar
-import Navbar from '/src/components/Navbar.vue'
-// Footer
-import Footer from '/src/components/Footer.vue'
-
-export default {
-  components: {
-    Navbar, Footer
-  }
-
-}
+<script setup>
+import { RouterLink, RouterView } from "vue-router";
 </script>
+
+<template>
+  <v-app id="app-container">
+    <TopNavbarComponent />
+
+    <RouterView />
+
+    <FooterComponent />
+
+
+  </v-app>
+</template>
+<script>
+import TopNavbarComponent from "../src/components/TopNavbarComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
+export default {
+  components: { TopNavbarComponent, FooterComponent },
+};
+
+</script>
+
+<style scoped>
+#app-container {
+  background-color: #416e850a;
+}
+</style>
